@@ -2,7 +2,7 @@
 
 Set of data visualizations for COVID-19 data from [Johns Hopkins CSSE department](https://github.com/CSSEGISandData/COVID-19). Charts of time series trends are inspired by the plot from this article in the [Financial Times](https://www.ft.com/coronavirus-latest), graphics by [John Burn-Murdoch](https://twitter.com/jburnmurdoch).  
 
-The file `covid_visualization.ipynb` contains a set of functions for extracting key pieces of data from the JHU dataset:  
+The file `covid_visualization.ipynb` contains a set of functions for extracting key pieces of data from the JHU dataset. Feel free to use or adapt these functions for your specific use case:  
 
 ## Functions  
 
@@ -37,4 +37,4 @@ From the value of <i>r</i>, the projected number of days for doubling (<i>n</i>)
 </p>  
 
 `country` &ndash; string with country name of interest  
-`output` &ndash; type of output (`1` for confirmed cases, `2` for recovered cases, and `3` for deaths &ndash; default `1`)  
+`output` &ndash; type of output (`1` for confirmed cases, `2` for recovered cases, and `3` for deaths &ndash; default `1`)   
