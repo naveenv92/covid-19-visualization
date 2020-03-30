@@ -24,11 +24,17 @@ doubling_rate(country, output=1)
 
 #### Returns the projected doubling rate as well as the most recent doubling event  
 
-The growth rate is calculated from the difference in cases between the most recent data point and two days prior:  
+The growth rate (<i>r</i>) is calculated from the difference in cases between the most recent data point and two days prior:  
 
 <p align='center'>
-	x<sub>n</sub> = x<sub>n – 2</sub>
-</p>
+	<i>x<sub>n</sub> = x<sub>n – 2</sub> &middot; (1 + r)<sup>2</sup></i>
+</p>  
+
+From the value of <i>r</i>, the projected number of days for doubling (<i>n</i>) can be calculated:  
+
+<p align='center'>
+	<i>(1 + r)<sup>n</sup> = 2</i>
+</p>  
 
 `country` &ndash; string with country name of interest  
 `output` &ndash; type of output (`1` for confirmed cases, `2` for recovered cases, and `3` for deaths &ndash; default `1`)  
