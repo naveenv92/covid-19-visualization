@@ -4,4 +4,11 @@ Set of data visualizations for COVID-19 data from [Johns Hopkins CSSE department
 
 The file `covid_visualization.ipynb` contains a set of functions for extracting key pieces of data from the JHU dataset:  
 
-## ```python covidData(country, output=1, start=100)```
+## Functions  
+
+```python
+covidData(country, output=1, start=100)
+```  
+
+#### Extracts time series data of interest for a specific country  
+
