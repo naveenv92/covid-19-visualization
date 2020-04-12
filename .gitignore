@@ -1,0 +1,11 @@
+# Ignore image files
+covid-cases.png
+case-doubling-rate.png
+covid-deaths.png
+death-doubling-rate.png
+covid-net-cases.png
+covid-cases-states.png
+covid-cases-counties-ca.png
+
+# Ignore checkpoints
+.ipynb_checkpoints/*.*
